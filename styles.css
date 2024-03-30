@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" ;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family:"Teko", sans-serif ;
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,36,170,1) 35%, rgba(0,212,255,1) 100%);
+}
+.error{
+  font-size: 20px;
+  color: aliceblue;
+  background-color: rgb(221, 9, 9);
+  text-align: center;
+  display: none;
+}
+.text h1{
+display: flex;
+margin: 30px;
+text-align: center;
+align-items:center ;
+justify-content: center;
+color: azure;
+font-size: 50px;
+}
+.card{
+  width: 90%;
+  max-width: 470px;
+  background: #ffff;
+  color: black;
+ margin: 60px auto 0px;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  margin-top: 0;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background: rgba(233, 229, 229, 0.63);
+  color: #555;
+  padding: 10px 25px;
+  border-radius: 30px;
+  height: 60px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  background: rgba(233, 229, 229, 0.63) ;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.weather-icon{
+width: 130px;
+}
+.weather h1{
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: -20px; 
+}
+
+.weather h2{
+  font-size: 65px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+
+  margin-top: -20px;
+}
+.wind-img{
+}
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.humidity, .wind{
+  font-size: 28px;
+  font-weight: bolder;
+}
+.weather{
+  display: none;
+}
